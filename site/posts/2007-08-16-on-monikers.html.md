@@ -1,0 +1,12 @@
+---
+title: "On Monikers"
+date: 2007-08-16
+---
+
+Some fun-name generator told me the other day that my porn name is Reed Funkenstein.
+
+What can I say, I do not plan on breaking into the adult entertainment market,
+but I like the name. It basically oozes willpower and ingenuity. It fits like a glove!
+
+I will probably use it for my next open source project. Reed Funkenstein is feeling frisky geeky.
+

@@ -1,0 +1,13 @@
+---
+title: "Yahoo buying del.icio.us"
+date: 2005-12-10
+---
+
+w00h00! It's [official][1] [now][2], it seems! Excellent news.
+
+I was suspecting that del.icio.us would be bought sooner or later by one of the major players, but I'm glad to see it's [us][3]. :)
+
+[1]: http://www.ysearchblog.com/archives/000223.html
+[2]: http://blog.del.icio.us/blog/2005/12/yahoo.html
+[3]: http://www.yahoo.com
+

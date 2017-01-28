@@ -1,0 +1,9 @@
+---
+title: "Interesting Observation"
+date: 2007-07-26
+---
+
+The more my little WoW toon is nearing lvl70 (he’s @69 now), the less space in my mind is occupied by the game. I am actually thinking about personal coding again, i.e. building more stuff outside the office.
+
+I am not relieved or shocked by this observation, it feels right. My love for the game isn’t decreasing, neither is my love for coding increasing. Both stay the same, yet _something_ is changing once again.
+
