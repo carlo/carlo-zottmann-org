@@ -1,9 +1,7 @@
 p
-  strong> Hey, I'm Hendrik!
-  ' I do code things and blog things and thingy things. This is where I occasionally post ramblings about some of them.
+  strong> Is this thing on?
+  = config['site_description']
 
-p Random crap: <a href="/uses">Stuff I Use</a>
-
-h3 Bloggy bits:
+h2 Random musings, i.e. an actual old-fashioned blog:
 
 = render '/posts/_list', locals: { posts: blog_posts }

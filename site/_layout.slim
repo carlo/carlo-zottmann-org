@@ -1,0 +1,37 @@
+doctype html
+html
+  head
+    meta[ charset="utf-8" ]
+    title = raw page_title
+
+    link[ rel="alternate" type="application/rss+xml" title="Carlo Zottmann" href="#{ config['site_url'] }/rss.xml" ]
+    link[ rel="pingback" href="https://webmention.io/czm.io/xmlrpc" ]
+    link[ rel="webmention" href="https://webmention.io/czm.io/webmention" ]
+    link[ rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css" ]
+    link[ rel="stylesheet" href="/css/jquery-oembed.css" ]
+    link[ rel="stylesheet" href="/css/styles.css" ]
+    script[ src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" ]
+    script[ src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js" ]
+    script[ src="/js/bundle.js" ]
+
+  body
+    .container
+      nav[ role="main" ]
+        strong
+          a[ href="/" ] = config["site_title"]
+        '  ·
+        a[ href="/rss.xml" rel="alternate" ] RSS
+        '  ·
+        a[ href="https://twitter.com/municode" rel="me" ] Twitter
+        '  ·
+        a[ href="https://github.com/carlo" rel="me" ] GitHub
+        '  ·
+        a[ href="/imprint.html" ] Imprint / Impressum
+
+      main[ role="main" ]
+        = yield
+
+      footer[ role="main" ]
+        = render "/_link_to_source.html", locals: { page: page }
+
+      = render "/_google_analytics.html"

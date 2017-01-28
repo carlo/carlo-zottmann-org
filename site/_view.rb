@@ -1,11 +1,9 @@
 extend_view do
-  def poop
-    "💩"
-  end
 
   def blog_posts
     find('/posts').latest_posts.reject(&:draft?)
   end
+
 
   def page_title
     page.data["title"] ?
@@ -13,11 +11,14 @@ extend_view do
       config["site_title"]
   end
 
+
   def config
     config_node.data
   end
 
+
   def config_node
     @config_node ||= find("/_config")
   end
+
 end
