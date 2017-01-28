@@ -21,4 +21,18 @@ extend_view do
     @config_node ||= find("/_config")
   end
 
+
+  def nodes_for_sitemap
+    public_pages = []
+    TreeWalker.walk_tree(find('/')) do |node|
+      public_pages << OpenStruct.new({
+        url: node.url,
+        title: node.title,
+        date: node.data.date,
+      } )if node.page? && node.should_publish?
+    end
+
+    public_pages
+  end
+
 end
