@@ -1,9 +1,9 @@
 GIT
   remote: git://github.com/hmans/flutterby.git
-  revision: 9448e40e346683c8c38477d30cf42c23efc5a347
+  revision: d601639406761939a47212b190b302c1cc9549e6
   branch: event-emitting
   specs:
-    flutterby (0.6.0)
+    flutterby (0.6.1)
       activesupport (~> 5.0)
       better_errors (~> 2.1)
       builder (~> 3.2)
@@ -66,7 +66,7 @@ GEM
       mini_portile2 (~> 2.1.0)
     nokogumbo (1.4.10)
       nokogiri
-    puma (3.6.2)
+    puma (3.7.0)
     rack (2.0.1)
     rb-fsevent (0.9.8)
     rb-inotify (0.9.8)

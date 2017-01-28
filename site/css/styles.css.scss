@@ -6,7 +6,7 @@ $col2: peru;
 $col3: rgb(138, 138, 138);
 $col-link: #666;
 
-$font: 18px/1.7 "Noto Serif","Helvetica Neue",Arial,sans-serif;
+$font: 18px/1.6 "Noto Serif","Helvetica Neue",Arial,sans-serif;
 
 * { box-sizing: inherit; }
 html, body { box-sizing: border-box; }
@@ -14,7 +14,7 @@ html, body { box-sizing: border-box; }
 body {
   font: $font;
   background-color: white;
-  color: #444;
+  color: #555;
 }
 
 .container {
@@ -66,6 +66,15 @@ a {
 
 li {
   margin: 0.5em 0;
+}
+
+hr {
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  border-color: #ddd;
+  color: #ddd;
+  margin: 2rem auto;
+  width: 15%;
 }
 
 a.footnote {
