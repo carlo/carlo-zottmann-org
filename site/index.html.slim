@@ -2,6 +2,10 @@ p
   strong> Beginner's Mind:
   = config['site_description']
 
-h2 Random musings:
+h2 Word dump:
 
-= render '/posts/_list', locals: { posts: blog_posts }
+= render '/posts/_list', locals: { posts: blog_posts[0, 10] }
+
+h3 Word dump archive:
+
+= render '/archive/_list'

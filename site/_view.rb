@@ -6,9 +6,14 @@ extend_view do
 
 
   def page_title
-    page.data["title"] ?
-      "#{page.data["title"]} &middot; #{config["site_title"]}" :
-      config["site_title"]
+    page.data['title'] ?
+      "#{ page.data["title"] } &middot; #{ config["site_title"] }" :
+      config['site_title']
+  end
+
+
+  def years_with_posts
+    find('/posts').posts.map { |p| p.data.date.year }.uniq.reverse
   end
 
 
@@ -18,7 +23,7 @@ extend_view do
 
 
   def config_node
-    @config_node ||= find("/_config")
+    @config_node ||= find('/_config')
   end
 
 
