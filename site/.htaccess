@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^(2.*)$ /posts/$1 [R=301,L]
