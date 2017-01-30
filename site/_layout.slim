@@ -6,16 +6,12 @@ html
 
     link[ rel="alternate" type="application/rss+xml" title="Carlo Zottmann RSS Feed" href="#{ config['site_url'] }/rss.xml" ]
 
-    link[ rel="pingback" href="https://webmention.io/czm.io/xmlrpc" ]
-    link[ rel="webmention" href="https://webmention.io/czm.io/webmention" ]
+    link[ rel="pingback" href="https://webmention.io/carlo.zottmann.org/xmlrpc" ]
+    link[ rel="webmention" href="https://webmention.io/carlo.zottmann.org/webmention" ]
 
     link[ rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css" ]
     link[ rel="stylesheet" href="/css/jquery-oembed.css" ]
     link[ rel="stylesheet" href="/css/styles.css" ]
-
-    script[ src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" ]
-    script[ src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js" ]
-    script[ src="/js/bundle.js" ]
 
     meta[ property="og:site_name" content=config["site_title"] ]
     meta[ property="og:type" content="website" ]
@@ -61,3 +57,7 @@ html
         = render "/_link_to_source.html", locals: { page: page }
 
       = render "/_google_analytics.html"
+
+    script[ src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" ]
+    script[ src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js" ]
+    script[ src="/js/bundle.js" ]
