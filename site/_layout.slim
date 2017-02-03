@@ -9,8 +9,6 @@ html
     link[ rel="pingback" href="https://webmention.io/carlo.zottmann.org/xmlrpc" ]
     link[ rel="webmention" href="https://webmention.io/carlo.zottmann.org/webmention" ]
 
-    link[ rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css" ]
-    link[ rel="stylesheet" href="/css/jquery-oembed.css" ]
     link[ rel="stylesheet" href="/css/styles.css" ]
 
     meta[ property="og:site_name" content=config["site_title"] ]
@@ -57,6 +55,11 @@ html
         = render "/_link_to_source.html", locals: { page: page }
 
       = render "/_google_analytics.html"
+
+    link[ rel="stylesheet" href="/css/jquery-oembed.css" ]
+    link[ rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i" ]
+    link[ rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i" ]
+    link[ rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css" ]
 
     script[ src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" ]
     script[ src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js" ]
