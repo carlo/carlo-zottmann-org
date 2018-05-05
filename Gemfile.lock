@@ -1,12 +1,13 @@
 GIT
   remote: git://github.com/hmans/flutterby.git
-  revision: 31180b29f5e629eef518c091d884469d88d858ab
+  revision: b6566d8063a5c1819b5093707ed0e48e8167fde8
   specs:
     flutterby (0.7.0)
       activesupport (~> 5.0)
       better_errors (~> 2.1)
       builder (~> 3.2)
       colorize (~> 0.8)
+      em-websocket (~> 0.5.1)
       erubis (~> 2.7)
       erubis-auto (~> 1.0)
       highline (~> 1.7)
@@ -14,6 +15,7 @@ GIT
       listen (~> 3.1)
       mime-types (~> 3.1)
       rack (~> 2.0)
+      rack-livereload (~> 0.3.16)
       sass (~> 3.4)
       slim (~> 3.0)
       slodown (~> 0.4)
@@ -43,13 +45,18 @@ GEM
     colorize (0.8.1)
     concurrent-ruby (1.0.4)
     crass (1.0.2)
+    em-websocket (0.5.1)
+      eventmachine (>= 0.12.9)
+      http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
     erubis-auto (1.0.1)
       erubis (>= 2.7.0)
+    eventmachine (1.2.2)
     execjs (2.7.0)
     ffi (1.9.17)
     highline (1.7.8)
-    i18n (0.7.0)
+    http_parser.rb (0.6.0)
+    i18n (0.8.0)
     json (2.0.3)
     kramdown (1.13.2)
     listen (3.1.5)
@@ -67,6 +74,8 @@ GEM
       nokogiri
     puma (3.7.0)
     rack (2.0.1)
+    rack-livereload (0.3.16)
+      rack
     rb-fsevent (0.9.8)
     rb-inotify (0.9.8)
       ffi (>= 0.5.0)

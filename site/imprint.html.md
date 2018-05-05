@@ -1,10 +1,11 @@
 ---
-title: "Imprint / Impressum"
+title: "Imprint / Impressum, Datenschutzerklärung"
 ---
 
-## Impressum & inhaltlich Verantwortlicher gemäß §10 Absatz 3 MDStV:
+# Impressum & inhaltlich Verantwortlicher gemäß §10 Absatz 3 MDStV:
 
 Carlo Zottmann, Zeisigweg 30, 81827 München, Tel ++49-151-651-81827, carlo@zottmann.org.
+
 
 ## Haftungshinweis:
 
